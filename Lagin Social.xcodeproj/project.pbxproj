@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D631DD5EB1BA900EBB40EF2 /* Pods_Lagin_Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3216A0996CE50367E773D619 /* Pods_Lagin_Social.framework */; };
 		C759DA721F682D0B009E0F25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C759DA711F682D0B009E0F25 /* AppDelegate.swift */; };
-		C759DA741F682D0B009E0F25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C759DA731F682D0B009E0F25 /* ViewController.swift */; };
+		C759DA741F682D0B009E0F25 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C759DA731F682D0B009E0F25 /* SignInVC.swift */; };
 		C759DA771F682D0B009E0F25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C759DA751F682D0B009E0F25 /* Main.storyboard */; };
 		C759DA791F682D0B009E0F25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C759DA781F682D0B009E0F25 /* Assets.xcassets */; };
 		C759DA7C1F682D0B009E0F25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C759DA7A1F682D0B009E0F25 /* LaunchScreen.storyboard */; };
 		C759DA871F682D0B009E0F25 /* Lagin_SocialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C759DA861F682D0B009E0F25 /* Lagin_SocialTests.swift */; };
+		C759DA921F682D96009E0F25 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C759DA911F682D96009E0F25 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,9 +28,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3216A0996CE50367E773D619 /* Pods_Lagin_Social.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lagin_Social.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D566FAD30B29CBB4D8C4FE8 /* Pods-Lagin Social.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lagin Social.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lagin Social/Pods-Lagin Social.debug.xcconfig"; sourceTree = "<group>"; };
 		C759DA6E1F682D0B009E0F25 /* Lagin Social.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lagin Social.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C759DA711F682D0B009E0F25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C759DA731F682D0B009E0F25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C759DA731F682D0B009E0F25 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		C759DA761F682D0B009E0F25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C759DA781F682D0B009E0F25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C759DA7B1F682D0B009E0F25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +40,8 @@
 		C759DA821F682D0B009E0F25 /* Lagin SocialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lagin SocialTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C759DA861F682D0B009E0F25 /* Lagin_SocialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lagin_SocialTests.swift; sourceTree = "<group>"; };
 		C759DA881F682D0B009E0F25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C759DA911F682D96009E0F25 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EEE0C015A40DE4DD70BFB2DC /* Pods-Lagin Social.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lagin Social.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lagin Social/Pods-Lagin Social.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D631DD5EB1BA900EBB40EF2 /* Pods_Lagin_Social.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +63,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		090C2CBF9AF7F28DDB90E471 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D566FAD30B29CBB4D8C4FE8 /* Pods-Lagin Social.debug.xcconfig */,
+				EEE0C015A40DE4DD70BFB2DC /* Pods-Lagin Social.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3C70104B53903D57E2C3BABB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3216A0996CE50367E773D619 /* Pods_Lagin_Social.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C759DA651F682D0A009E0F25 = {
 			isa = PBXGroup;
 			children = (
 				C759DA701F682D0B009E0F25 /* Lagin Social */,
 				C759DA851F682D0B009E0F25 /* Lagin SocialTests */,
 				C759DA6F1F682D0B009E0F25 /* Products */,
+				090C2CBF9AF7F28DDB90E471 /* Pods */,
+				3C70104B53903D57E2C3BABB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +103,15 @@
 		C759DA701F682D0B009E0F25 /* Lagin Social */ = {
 			isa = PBXGroup;
 			children = (
+				C759DA951F683095009E0F25 /* Model */,
+				C759DA941F683090009E0F25 /* View */,
+				C759DA931F68308A009E0F25 /* Controller */,
 				C759DA711F682D0B009E0F25 /* AppDelegate.swift */,
-				C759DA731F682D0B009E0F25 /* ViewController.swift */,
 				C759DA751F682D0B009E0F25 /* Main.storyboard */,
 				C759DA781F682D0B009E0F25 /* Assets.xcassets */,
 				C759DA7A1F682D0B009E0F25 /* LaunchScreen.storyboard */,
 				C759DA7D1F682D0B009E0F25 /* Info.plist */,
+				C759DA911F682D96009E0F25 /* GoogleService-Info.plist */,
 			);
 			path = "Lagin Social";
 			sourceTree = "<group>";
@@ -96,6 +125,28 @@
 			path = "Lagin SocialTests";
 			sourceTree = "<group>";
 		};
+		C759DA931F68308A009E0F25 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C759DA731F682D0B009E0F25 /* SignInVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		C759DA941F683090009E0F25 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C759DA951F683095009E0F25 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +154,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C759DA8B1F682D0B009E0F25 /* Build configuration list for PBXNativeTarget "Lagin Social" */;
 			buildPhases = (
+				F32D62E24FA2C91C57011178 /* [CP] Check Pods Manifest.lock */,
 				C759DA6A1F682D0B009E0F25 /* Sources */,
 				C759DA6B1F682D0B009E0F25 /* Frameworks */,
 				C759DA6C1F682D0B009E0F25 /* Resources */,
+				4524833D265C669922149B91 /* [CP] Embed Pods Frameworks */,
+				698B1D2144357C5CF2846A0A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -183,6 +237,7 @@
 			files = (
 				C759DA7C1F682D0B009E0F25 /* LaunchScreen.storyboard in Resources */,
 				C759DA791F682D0B009E0F25 /* Assets.xcassets in Resources */,
+				C759DA921F682D96009E0F25 /* GoogleService-Info.plist in Resources */,
 				C759DA771F682D0B009E0F25 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -196,12 +251,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4524833D265C669922149B91 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Lagin Social/Pods-Lagin Social-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lagin Social/Pods-Lagin Social-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		698B1D2144357C5CF2846A0A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lagin Social/Pods-Lagin Social-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F32D62E24FA2C91C57011178 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lagin Social-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C759DA6A1F682D0B009E0F25 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C759DA741F682D0B009E0F25 /* ViewController.swift in Sources */,
+				C759DA741F682D0B009E0F25 /* SignInVC.swift in Sources */,
 				C759DA721F682D0B009E0F25 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,6 +452,7 @@
 		};
 		C759DA8C1F682D0B009E0F25 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D566FAD30B29CBB4D8C4FE8 /* Pods-Lagin Social.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8W282NY7JZ;
@@ -352,6 +466,7 @@
 		};
 		C759DA8D1F682D0B009E0F25 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEE0C015A40DE4DD70BFB2DC /* Pods-Lagin Social.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8W282NY7JZ;
@@ -412,6 +527,7 @@
 				C759DA8D1F682D0B009E0F25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C759DA8E1F682D0B009E0F25 /* Build configuration list for PBXNativeTarget "Lagin SocialTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +536,7 @@
 				C759DA901F682D0B009E0F25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
