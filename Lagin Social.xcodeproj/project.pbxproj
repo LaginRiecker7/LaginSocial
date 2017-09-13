@@ -15,6 +15,10 @@
 		C759DA7C1F682D0B009E0F25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C759DA7A1F682D0B009E0F25 /* LaunchScreen.storyboard */; };
 		C759DA871F682D0B009E0F25 /* Lagin_SocialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C759DA861F682D0B009E0F25 /* Lagin_SocialTests.swift */; };
 		C759DA921F682D96009E0F25 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C759DA911F682D96009E0F25 /* GoogleService-Info.plist */; };
+		C759DA971F6921B7009E0F25 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C759DA961F6921B7009E0F25 /* CustomView.swift */; };
+		C759DA9A1F692245009E0F25 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C759DA991F692245009E0F25 /* Constants.swift */; };
+		C759DA9C1F692415009E0F25 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C759DA9B1F692415009E0F25 /* RoundButton.swift */; };
+		C759DA9E1F6926C0009E0F25 /* NiceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C759DA9D1F6926C0009E0F25 /* NiceButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +45,10 @@
 		C759DA861F682D0B009E0F25 /* Lagin_SocialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lagin_SocialTests.swift; sourceTree = "<group>"; };
 		C759DA881F682D0B009E0F25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C759DA911F682D96009E0F25 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C759DA961F6921B7009E0F25 /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		C759DA991F692245009E0F25 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C759DA9B1F692415009E0F25 /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		C759DA9D1F6926C0009E0F25 /* NiceButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NiceButton.swift; sourceTree = "<group>"; };
 		EEE0C015A40DE4DD70BFB2DC /* Pods-Lagin Social.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lagin Social.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lagin Social/Pods-Lagin Social.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,6 +111,7 @@
 		C759DA701F682D0B009E0F25 /* Lagin Social */ = {
 			isa = PBXGroup;
 			children = (
+				C759DA981F692233009E0F25 /* Util */,
 				C759DA951F683095009E0F25 /* Model */,
 				C759DA941F683090009E0F25 /* View */,
 				C759DA931F68308A009E0F25 /* Controller */,
@@ -136,6 +145,9 @@
 		C759DA941F683090009E0F25 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C759DA961F6921B7009E0F25 /* CustomView.swift */,
+				C759DA9B1F692415009E0F25 /* RoundButton.swift */,
+				C759DA9D1F6926C0009E0F25 /* NiceButton.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -145,6 +157,14 @@
 			children = (
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		C759DA981F692233009E0F25 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				C759DA991F692245009E0F25 /* Constants.swift */,
+			);
+			name = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -314,8 +334,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C759DA9E1F6926C0009E0F25 /* NiceButton.swift in Sources */,
+				C759DA971F6921B7009E0F25 /* CustomView.swift in Sources */,
+				C759DA9C1F692415009E0F25 /* RoundButton.swift in Sources */,
 				C759DA741F682D0B009E0F25 /* SignInVC.swift in Sources */,
 				C759DA721F682D0B009E0F25 /* AppDelegate.swift in Sources */,
+				C759DA9A1F692245009E0F25 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
